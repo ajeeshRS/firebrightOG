@@ -15,7 +15,7 @@ html {
   position: fixed;
   width: 35px;
   height: 35px;
-  bottom: 20px;
+  bottom: 25px;
   right: 20px;
   text-align: center;
   border-radius: 50%;
@@ -449,7 +449,14 @@ footer {
     display: none;
   }
 }
-
+@media screen and (min-width: 370px) and (max-width: 491px) {
+  .hero1 h3{
+    text-align: center;
+  }
+  .hero1 p{
+    text-align: center;
+  }
+}
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .img img {
     display: none;

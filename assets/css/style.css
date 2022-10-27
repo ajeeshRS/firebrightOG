@@ -449,7 +449,7 @@ footer {
     display: none;
   }
 }
-@media screen and (min-width: 370px) and (max-width: 491px) {
+@media screen and (max-width: 491px) {
   .hero1 h3{
     text-align: center;
   }
